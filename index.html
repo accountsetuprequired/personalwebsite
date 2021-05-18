@@ -1,0 +1,90 @@
+<html>
+<style>
+body {
+    font-family: Nunito Sans Black;
+    margin-left: 25%;
+    margin-top: 5%;
+    color: #e2e2e2;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    font-size: 1.5vw;
+
+}
+#title1 {
+    font-size: 200%;
+}
+#title2 {
+    font-family: Roboto Slab;
+    font-size: 80%;
+}
+#title3 {
+    font-family: Roboto Slab;
+    font-size: 80%;
+}
+b {
+    font-size: 120%;
+    color: #b22b4f
+}
+html {
+
+}
+#cookie {
+    position: absolute;
+    bottom: .5vw;
+    font-size: 1vw;
+    right: 5vw;
+}
+button {
+    width: 10vw;
+    margin-top: 1vw;
+    font-family: Nunito Sans Black;
+    font-size: 1.5vw;
+    color: #1f2027;
+    border: 0px;
+    border-radius: 0;
+    padding: .3vw;
+    transition: .5s;
+}
+button:hover {
+    width: 10vw;
+    box-shadow: inset 10vw 0 0 0 #b22b4f;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    padding: 2%; 
+        border-radius: 0px;
+    border: .5vw solid #c8c6c7;
+    padding-bottom: 40%;
+    background: #1f2027;
+}
+html {
+    background-color: #1f2027;    
+}
+html {
+    background: repeating-linear-gradient(45deg, rgba(31,32,39,0.99) 0px, rgba(31,32,39,0.99) .5vw, #1f2027 .5vw, #1f2027 1vw)
+}
+</style>
+  <body>
+<main>
+    <span id="title1"> Labels are difficult. </span> <br>
+    <span id="title2"> There's so many views on politics that actually wrapping your head around and trying to digest all the information surrounding them all would probably drive you crazy... </span> <br>
+    <span id="title3"> <b>So let us decide for you.*</b> <br>
+    <button type="button" onclick="myFunction()"> What Am I? </button>
+    <script>
+      function myFunction() {
+      var words = ['Hyper-communist', 'Hyper-conservative', 'Hyperliberal', 'Hyper-fascist', 'Neoconservative', 'Neopopulist', 'Neoliberal', 'Neofascist', 'Progressive', 'Reconstructive', 'Unionist', 'Segmentarian', 'Uberconservative', 'Expatriated', 'Paleoliberal', 'Paleoconservative', 'Paleofascist', 'Reformist', 'Centrist', 'Anarchist', 'Anarcho-fascist', 'Anarcho-stalinist', 'Anarcho-liberal', 'Trotskyist', 'Transhumanist', 'Esoteric', 'Christian', 'Atheistic', 'Alt',  'Civical']
+      var thing = words[Math.floor(Math.random()*words.length)];
+      var words2 = ['Hyper-communist', 'Hyper-conservative', 'Hyperliberal', 'Hyper-fascist', 'Neoconservative', 'Neopopulist', 'Neoliberal', 'Neofascist', 'Progressive', 'Reconstructive', 'Unionist', 'Segmentarian', 'Uberconservative', 'Paleoliberal', 'Paleoconservative', 'Paleofascist', 'Reformist',  'Nihilist', 'Anarcho-nihilist', 'Jihadist', 'Democrat', 'Republican', 'Satanist', 'Syndicalist', ]
+      var thing2 = words2[Math.floor(Math.random()*words2.length)];
+      alert("Congrats, you're a/an " + thing + " " + thing2)
+      
+}
+
+    </script>
+<span id="cookie"> *This information may be based on site-wide cookie information. </span>
+</main>
+</body>
+</html>
+
